@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+p{
+    font-family: "montserat";
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "montserat";
+    src: url("Montserrat-Regular.ttf");
+}
+.wrapper{
+    max-width: 1240px;
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    background-color: #39235E;
+    height: 130px;
+    padding-top: 40px;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+}
+
+header .wrapper{
+    display: flex;
+}
+header p{
+    font-size: 25px;
+    position: relative;
+    top: 45px;
+}
+header .patern-header{
+  position: absolute;
+  right: -150px;
+  top: -5px;
+}
+
+header .patern-header img{
+    width: 50%;
+    height: 30%;
+}
+
+main{
+    overflow: hidden;
+    position: relative;
+    background-color: #39235E;
+    height: 100vh;
+    padding-top: 70px;
+}
+.logo img{
+    width: 45%;
+}
+main .wrapper p{
+    font-family: "montserat";
+    margin-bottom: 35px;
+    color: #fff;
+    font-size: 20px;
+}
+button{
+    width: 60%;
+    background-color: #EDBF1C;
+    border-radius: 10px;
+}
+
+button a{
+    display: flex;
+    gap: 20px;
+    font-family: "montserat";
+    font-size: 20px;
+    margin: 10px 15px;
+    color: #39235E;
+}
+
+button a >img{
+    width: 23%;
+}
+.patern{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.patern img{
+    width: 130%;
+    height: 100%;
+}
+@media only screen and (min-width:960px) {
+    button{
+        width: 18%;
+        background-color: #EDBF1C;
+        border-radius: 10px;
+    }
+    button a >img{
+        width: 30%;
+    }
+    .logo img{
+        width: 15%;
+    }
+    .patern{
+        right: 0;
+    }
+    .patern img{
+        width: 26%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Bixa-la",
+    "short_name": "Bixa-la",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#39235E",
+    "theme_color": "#39235E",
+    "scope": "",
+    "description": "App para ajudar a fazer bixa em qualquer canto",
+    "icons": [
+      {
+        "src": "/SVG/patern.svg",
+        "sizes": "220x90",
+        "type": "image/png"
+      },
+      {
+        "src": "/SVG/patern.svg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
