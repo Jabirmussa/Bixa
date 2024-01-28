@@ -32,6 +32,13 @@ header{
 header .wrapper{
     display: flex;
 }
+
+header .wrapper a img{
+    position: absolute;
+    width: 10%;
+    rotate: 180deg;
+    top: 20px;
+}
 header p{
     font-size: 25px;
     position: relative;
@@ -70,6 +77,26 @@ button{
     border-radius: 10px;
 }
 
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    background-color: #39235E;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    bottom: 20px;
+}
+.btn a{
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    margin: -10px auto;
+}
+
 button a{
     display: flex;
     gap: 20px;
@@ -81,6 +108,8 @@ button a{
 
 button a >img{
     width: 23%;
+    transition: ease-in-out;
+    animation: infinite;
 }
 .patern{
     position: absolute;
@@ -110,5 +139,8 @@ button a >img{
     .patern img{
         width: 26%;
         height: 100%;
+    }
+    header .wrapper a img{
+        width: 3%;
     }
 }
